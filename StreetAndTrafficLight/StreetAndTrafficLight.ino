@@ -45,6 +45,7 @@ void loop() {
   for (int i = 7; i > 0; i--) {
     LCD.setCursor(0, 1);
     LCD.print(i);
+    LCD.print("  ");
     LCD.setCursor(8, 1);
     LCD.print("|");
     LCD.setCursor(10, 1);
@@ -67,6 +68,7 @@ void loop() {
   for (int i = 3; i > 0 ; i--) {
     LCD.setCursor(0, 1);
     LCD.print(i);
+    LCD.print("  ");
     LCD.setCursor(8, 1);
     LCD.print("|");
     LCD.setCursor(10, 1);
@@ -89,6 +91,7 @@ void loop() {
   for (int i = 10; i > 0; i--) {
     LCD.setCursor(0, 1);
     LCD.print(i);
+    LCD.print("  ");
     LCD.setCursor(8, 1);
     LCD.print("| ");
     LCD.setCursor(10, 1);
